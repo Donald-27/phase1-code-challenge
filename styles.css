@@ -114,9 +114,19 @@ nav {
     text-align: center;
     margin-bottom: 10px; 
     font-size: 40px;
-    color: red
+    color: red;
 }
-h1,h2{
+    h2 {
+        font-size: 25px;
+        font-weight: bold; 
+        color:rgb(212, 27, 30);
+        text-align: center; 
+        text-transform: uppercase; 
+        margin-bottom: 20
+
+    }
+
+h1{
     font-size: 36px;
     font-weight: bold; 
     color:green;
