@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travels and Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="WhatsApp Image 2025-03-19 at 16.49.41_2ab0d6b2.jpg" alt="our-logo" class="logo">
+            <h1 class="title">Citty Travels and Adventures</h1>
+        </div>
+        <nav>
+            <button class="nav-btn" id="home-btn">Home</button>
+            <button class="nav-btn" id="booking-btn">Booking</button>
+            <button class="nav-btn" id="contact-btn">Contacts</button>  <!-- Fixed ID -->
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home-section" id="home">
+        <h2>Welcome to Cirry Travels and Adventures</h2>
+        <p>Your best travel partner for comfortable and affordable trips between Naivasha, Mombasa, and Eldoret.</p>
+        <p>Experience the best travel with our safe, reliable, and well-maintained matatus.</p>
+
+        <section class="info-section" id="destinations-section">
+            <h2>Destinations & Prices</h2>
+
+            <!-- Eldoret -->
+            <div class="destination">
+                <h3>Eldoret - Ksh 2500</h3>
+                <div class="image-gallery">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.48_2b6a3eab.jpg" alt="Iten View Point">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.49_799203ab.jpg" alt="Eldoret Sports Club">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.49_b481fca1.jpg" alt="Poa Place Resort">
+                </div>
+            </div>
+
+            <!-- Mombasa -->
+            <div class="destination">
+                <h3>Mombasa - Ksh 4500</h3>
+                <div class="image-gallery">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.50_0c1588c3.jpg" alt="Nyali Beach">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.50_2a941f38.jpg" alt="Diani Beach">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.51_15548a7d.jpg" alt="Kisite Marine Park">
+                </div>
+            </div>
+
+            <!-- Naivasha -->
+            <div class="destination">
+                <h3>Naivasha - Ksh 2000</h3>
+                <div class="image-gallery">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.51_d3978ecc.jpg" alt="Lake Naivasha">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.52_6f7eaf9c.jpg" alt="Crescent Island Game Sanctuary">
+                    <img src="WhatsApp Image 2025-03-19 at 19.25.53_f11bbe93.jpg" alt="Hell's Gate">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Book a Trip</h2>
+        <form id="booking-form">
+            <label for="destination">Select Destination:</label>
+            <select id="destination">
+                <option value="Eldoret">Eldoret - Ksh 2500</option>
+                <option value="Mombasa">Mombasa - Ksh 4500</option>
+                <option value="Naivasha">Naivasha - Ksh 2000</option>
+            </select>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+
+        <h3>Booking Confirmation</h3>
+        <p id="confirmation"></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section">
+        <h2>Contact Us</h2>
+        <p><span class="number">Phone:</span> <a href="tel:+254751303029">+254751303029</a></p>
+        <p><span class="number">Email:</span> <a href="mailto:kipropdonald27@gmail.com">kipropdonald27@gmail.com</a></p>
+    </section>
+
+   <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
